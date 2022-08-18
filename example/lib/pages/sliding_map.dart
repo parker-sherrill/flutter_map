@@ -36,7 +36,7 @@ class SlidingMapPage extends StatelessWidget {
                 ),
                 children: [
                   TileLayer(
-                    tileProvider: AssetTileProvider(),
+                   // tileProvider: AssetTileProvider(),
                     maxZoom: 14,
                     urlTemplate: 'assets/map/anholt_osmbright/{z}/{x}/{y}.png',
                   ),
